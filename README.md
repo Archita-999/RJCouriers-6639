@@ -28,20 +28,28 @@ Service Area        Techniques / Tools Used
 
                                       
 # Microservices Architechture
-RJ Courier is a monolithic web application that manages courier bookings, payments, tracking, and shipment records. It is built using HTML and Bootstrap for the frontend design, 
-and Flask with Jinja templating for backend logic.
+RJ Courier Microservices is a courier management system built using the microservices architecture. 
+It is divided into separate services for users, shipments, payments, and the frontend interface. 
+Each service runs independently and communicates through REST APIs.
 
-Features Book Courier – Fill in sender name, receiver name, package weight, and delivery address Payment Gateway 
-Select a payment method and confirm the booking 
-Track Shipment Enter a tracking ID to check the current status of a shipment 
-View All Shipments display all bookings in an admin‑style table
+Features Users Service – Stores and retrieves sender and receiver details 
+Shipments Service – Creates bookings, generates tracking IDs, updates shipment status 
+Payments Service – Records payments for bookings and marks them as paid 
+Frontend Service – Provides the user interface for booking, payment, tracking, and viewing shipments
 
-Technologies Used UI Design – HTML, Bootstrap 5 Templating – Jinja2 (Flask) Backend Logic – Python, Flask Architecture – Monolithic Data Handling – Python dictionaries (demo storage)
+Technologies Used: 
+UI Design – HTML, Bootstrap 5 (or React) 
+Templating – Jinja2 (Flask) Backend Logic – Python,
+Microservices Data Handling – Python dictionaries (demo storage)
 
-How to Run: 
-i. Make sure Python and Flask are installed 
-ii. Run the application files in your terminal 
-iii. Open your browser and go to http://localhost:5000
-   
+How to Run:
+i. Open four terminals 
+ii. Run each service:  
+python users-service/main.py  
+python shipments-service/main.py  
+python payments-service/main.py  
+python frontend-service/main.py 
+iii. Open your browser and go to 
+http://localhost:5000
 
                                                                    
