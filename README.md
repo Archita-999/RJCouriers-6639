@@ -23,7 +23,7 @@ Service Area        Techniques / Tools Used
 3. How to Run
  i. Clone the repository  
 
-   git clone https://github.com/yourusername/rj-courier.git
+   git clone https://github.com/Archita-999/rj-courier.git
    cd rj-courier
    
  ii. Run the Flask app
