@@ -21,15 +21,7 @@ Service Area        Techniques / Tools Used
  Data Handling       Python dictionaries (for demo)  
 
 3. How to Run
- i. Clone the repository  
-
-   git clone https://github.com/Archita-999/rj-courier.git
-   cd rj-courier
-   
- ii. Run the Flask app
-    python app.py
-
- iii. Open your browser and go to
+ i. Open your browser and go to
      http://localhost:5000
 
 
