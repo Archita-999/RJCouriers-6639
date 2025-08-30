@@ -1,5 +1,5 @@
 # RJCouriers-6639
-# RJ Courier Services (Based on microservices architechture and Monolithic architechture.)
+# RJ Courier Services (Based on Monolithic architechture and Microservices architechture.)
 
 # Monolithic Architechture 
 RJ Courier is a monolithic web application designed to handle courier bookings, payments, tracking, and shipment management. 
